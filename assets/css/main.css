@@ -349,9 +349,7 @@ header {
   
   
 
-  .header__nav {
-    padding: 1rem; /* Adjusted padding for smaller screens */
-  }
+  
 
   .header__logo img {
     max-width: 150px; /* Adjusted max-width for smaller screens */

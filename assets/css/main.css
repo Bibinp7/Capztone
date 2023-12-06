@@ -335,7 +335,7 @@ header {
 
 /*End Header */
 /* Responsive styles for mobile devices */
-@media only screen (min-width:320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .menu__item a{
     display: none;
   

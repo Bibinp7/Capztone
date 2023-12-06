@@ -18,6 +18,7 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --first-color: rgb(249, 166, 26);
   --second-color: rgb(0, 86, 159);
+  --navcolor: #6E6F6A;
   --title-color: rgb(0, 86, 159);
   --text-color: hsl(230, 16%, 45%);
   --border-color: hsl(230, 50%, 90%);
@@ -145,17 +146,10 @@ body {
 
  .nav-border {
   width: 100%;
-  height: 50px;
-  background-color: var(--second-color);
-  align-items: center; /* Center the content vertically */
-  padding: 1.5rem;
-
-}
-
-
-
-
-.border {
+  height: max-content;
+  background-color:var(--second-color); 
+ }
+.border{
   display: flex;
   align-items: center; /* Center the content vertically */
   margin-left: 50%; /* Adjust the margin for horizontal centering */
